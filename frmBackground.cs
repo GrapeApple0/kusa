@@ -80,17 +80,12 @@ namespace kusa
             this.ShowInTaskbar = false;
             this.TopMost = true;
             this.Load += new System.EventHandler(this.frmBackground_Load);
-            this.Click += new System.EventHandler(this.frmBackground_Click);
             this.ResumeLayout(false);
         }
 
         private void frmBackground_Load(object sender, EventArgs e)
         {
             this.BringToFront();
-        }
-
-        private void frmBackground_Click(object sender, EventArgs e)
-        {
         }
     }
 
